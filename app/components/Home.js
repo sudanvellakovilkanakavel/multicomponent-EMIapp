@@ -94,7 +94,7 @@ return(
               <br />
               <br />
               <div className="form-group col-sm-4 col-sm-offset-4">
-              <Link to='/Result.js'>
+              <Link to='../containers/PromptContainer.js'>
 
             <button className="btn btn-block btn-success"type="submit">CALCULATE</button>
 

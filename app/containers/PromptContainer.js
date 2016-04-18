@@ -1,9 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
- 
-
-
 
 var PromptContainer = React.createClass({
 
@@ -11,9 +8,7 @@ var PromptContainer = React.createClass({
 
       return (
             
-       <div className= "jumbotron col-sm-6 col-sm-offset-3 text-center">  
-
-     
+       <div className= "jumbotron col-sm-6 col-sm-offset-3 text-center">       
 
 
 calInterestandvalidation: function() {
@@ -51,8 +46,6 @@ if( document.myForm.age.value == "" )
             return false;
          }
 
-
-
   if(
 
 
@@ -64,7 +57,7 @@ if( document.myForm.age.value == "" )
 
     )
          {
-//alert("check2");
+
 
             var loanterm = document.myForm.months.value;
             var roicomb;  //rate of interest calculated on monthly basis
